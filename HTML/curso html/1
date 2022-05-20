@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="PT_br">
+    <head>
+        <title>Exercicio no 1</title>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width", initial-scale=1.0">
+    <title>Pedro</title>
+</head>
+<body>
+    <h1>Header 1</h1>
+    <h2>Header 2</h2>
+    <h3>Header 3</h3>
+    <h4>Header 4</h4>
+    <h5>Header 5</h5>
+    <h6>Header 6</h6>
+    <a href="https://tecmundo.com.br" target="_blank"> Clique aqui para ir pro tecmundo</a>
+</body>
+</html>

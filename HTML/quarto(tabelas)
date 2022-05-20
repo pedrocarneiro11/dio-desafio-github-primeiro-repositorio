@@ -1,0 +1,22 @@
+<!DOCTYPE HTML>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device width", initial-scale="1.0">
+        <title>Firestack</title>
+    </head>
+
+    <body>
+        <table>
+            <thead>
+                <tr>
+                    <th rowspan="2"></th>
+                    <th colspan="2">Curso 1</th>
+                    <th> colspan="2"</th>
+                </tr>
+            </thead>
+            
+        </table>
+    </body>
+</html>
+<!-- rowspan= ocupa linha e colspan = ocupa coluna-->

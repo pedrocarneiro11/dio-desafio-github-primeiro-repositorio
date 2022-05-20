@@ -1,0 +1,74 @@
+<!DOCTYPE HTML>
+<html lang="PT_br">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width", initial-scale="1.0">
+        <title>quarto(tabelas)</title>
+        <link rel="icon" href="../curso html/Ícone/setup.ico">
+        <meta name="description" content="Página teste de HTML">
+        <meta name="author" content="Pedro Carneiro">
+        <meta name="robots" content="index, follow">
+    </head>
+
+    <body>
+        <table>
+            <caption>Alunos por polo por curso por turma</caption>
+            <colgroup>
+                <col>
+                <col span="2" style="background-color: burlywood;">
+                <col span="2" style="background-color: cyan;">        
+            </colgroup>
+            <thead>
+                <tr>
+                    <th rowspan="2"></th>
+                    <th scope="colgroup" colspan="2">Curso 1</th>
+                    <th scope="colgroup" colspan="2">Curso 2</th>
+                </tr>
+                <tr>
+                    <th scope="col">Turma 1</th>
+                    <th scope="col">Turma 2</th>
+                    <th scope="col">Turma 1</th>
+                    <th scope="col">Turma 2</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">Polo sede</th>
+                    <td>20</td>
+                    <td>30</td>
+                    <td>10</td>
+                    <td>20</td>
+                </tr>
+                <tr>
+                    <th scope="row">Polo sede</th>
+                    <td>20</td>
+                    <td>30</td>
+                    <td>10</td>
+                    <td>20</td>
+                </tr>
+                <tr>
+                    <th scope="row">Polo sede</th>
+                    <td>20</td>
+                    <td>30</td>
+                    <td>10</td>
+                    <td>20</td>
+                </tr>
+                <tr>
+                    <th scope="row">Polo sede</th>
+                    <td>20</td>
+                    <td>30</td>
+                    <td>10</td>
+                    <td>20</td>
+                </tr>
+                <tr>
+                    <th scope="row">Polo sede</th>
+                    <td>20</td>
+                    <td>30</td>
+                    <td>10</td>
+                    <td>20</td>
+                </tr>
+            </tbody>            
+        </table>
+    </body>
+</html>
+<!-- rowspan= ocupa linha e colspan = ocupa coluna-->
